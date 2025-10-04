@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write .",
     "dev": "concurrently -n web,server -c magenta,blue \"pnpm dev:web\" \"pnpm dev:server\"",
     "dev:web": "pnpm --filter web dev",
     "dev:server": "pnpm --filter server dev",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2"
   }
 }
