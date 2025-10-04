@@ -1,3 +1,3 @@
-# food-co-app
+# crud-mono-repo-template
 
-Just a generic boring food company CRUD app for visualizing revenue and other stuff
+Just a generic boring CRUD mono repo template
