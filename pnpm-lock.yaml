@@ -10,6 +10,9 @@ importers:
       concurrently:
         specifier: ^9.2.1
         version: 9.2.1
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -377,6 +380,14 @@ packages:
       }
     engines: { node: '>=8' }
 
+  husky@9.1.7:
+    resolution:
+      {
+        integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==,
+      }
+    engines: { node: '>=18' }
+    hasBin: true
+
   is-fullwidth-code-point@3.0.0:
     resolution:
       {
@@ -667,6 +678,8 @@ snapshots:
       resolve-pkg-maps: 1.0.0
 
   has-flag@4.0.0: {}
+
+  husky@9.1.7: {}
 
   is-fullwidth-code-point@3.0.0: {}
 
